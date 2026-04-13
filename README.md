@@ -3,15 +3,6 @@ A Security Information and Event Management (SIEM) tool from scratch is a fantas
 
 A full-scale SIEM (like Splunk or ELK) requires complex databases, distributed agents, and advanced correlation engines. However, for a simple Python project, we can build a lightweight desktop application using tkinter that simulates log ingestion, applies basic detection rules, and generates alerts.
 
-Creating a Security Information and Event Management (SIEM) tool from scratch is a fantastic way to understand how log parsing, threat detection, and real-time monitoring work under the hood.
-
-A full-scale SIEM (like Splunk or ELK) requires complex databases, distributed agents, and advanced correlation engines. However, for a simple Python project, we can build a lightweight desktop application using tkinter that simulates log ingestion, applies basic detection rules, and generates alerts.
-
-Here is a complete, runnable Python script that creates a basic SIEM dashboard. It uses a background thread to generate mock system logs, scans those logs against a set of predefined security rules, and flags suspicious activity in an Alerts panel.
-
-The Python SIEM Project Code
-You don't need to install any external libraries for this; it relies entirely on Python's standard library. Save the following code in a file named simple_siem.py and run it.
-
 **How This Code Works**
 
 **The Interface (_build_ui):**
